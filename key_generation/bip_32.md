@@ -187,7 +187,7 @@ So let’s imagine that the Accounting Department generates 1 parent key for eac
 As the CEO, you want to spend the money on one of these addresses. Here is how you would proceed.
 
 ```cs
-ceoKey = new ExtKey();
+ExtKey ceoKey = new ExtKey();
 string accounting = "1'";
 int customerId = 5;
 int paymentId = 50;
